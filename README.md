@@ -1,4 +1,4 @@
-#HashingAlgorithms
+# HashingAlgorithms
 
 This source contains Sha224, Sha256 algorithm Implemented.
 Sha512 and Sha384 are yet to be implemented.
