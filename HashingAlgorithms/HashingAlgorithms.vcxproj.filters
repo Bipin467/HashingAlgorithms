@@ -15,30 +15,42 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\SHAConstants.h">
+    <ClCompile Include="src\private\BitManipulation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\BitManipulation.cpp">
+    <ClCompile Include="src\private\Sha224.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Sha256.cpp">
+    <ClCompile Include="src\private\Sha256.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Sha224.cpp">
+    <ClCompile Include="src\private\Sha512.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\public\SHAConstants.h">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\private\Sha384.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Sha256.h">
+    <ClInclude Include="src\public\BitManipulation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\HashingAlgo.h">
+    <ClInclude Include="src\public\HashingAlgo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\BitManipulation.h">
+    <ClInclude Include="src\public\Sha224.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Sha224.h">
+    <ClInclude Include="src\public\Sha256.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\Sha512.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\public\Sha384.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
